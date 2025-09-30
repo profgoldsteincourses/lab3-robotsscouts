@@ -9,7 +9,8 @@
 def printNames():
   for myName in ["Ben", "Laski", "Adam", "Vooris" ]:
         print ( myName )
-
+        upperName = myName.upper()
+        print(upperName)
 
 # Call our function
 printNames()
